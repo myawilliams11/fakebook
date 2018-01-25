@@ -4,6 +4,7 @@ body {
 
 
 #headdiv {
+    position: relative;
     color: white;
     height: 300px;
     width: 850px;
@@ -19,12 +20,13 @@ body {
      width: 850px;
      height: 30px;
      background-color: gray;
+     position: relative;
 
  }
 
  .mainNav{
-    position: relative;
-    left: 50px;
+    position: absolute;
+    left: 250px;
  }
 
  .listItems{
@@ -58,34 +60,28 @@ body {
      background-color: antiquewhite;
      border: 1px solid black;
      float: left;
-     position: relative;
+     position: absolute;
      left: 20px;
-     top: -20px;
+     top: 200px;
+     z-index: 1000;
  }
- .box1 {
-    
-    height: 100px;
-    width: 350px;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid black;
-    position: fixed;
-    float:left;
-    top: 500px;
-    background-color:lightgray;
+ .row1 {
+     width: 850px;
  }
-
-.box1a { 
-
-height: 200px;
-width: 350px;
-padding: 10px;
-margin: 100px;
-border: 1px solid black;
-position: fixed;
-float:left;
-top: 410px;
-left: 500px;
-background-color:lightgray;
-}
+ .column1 {
+     float: left;
+     width: 40%;
+     height: 100px;
+     background-color: yellow;
+     margin-right: 15px;
+ }
+ .column1a{
+     
+ }
+ .column2 {
+     float:left;
+     width: 58%;
+     height:200px;
+     background-color: red;
+ }
 }
