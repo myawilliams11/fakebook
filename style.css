@@ -7,7 +7,7 @@ body {
     color: white;
     height: 300px;
     width: 850px;
-    background-color: #5342f4;
+    background-color: hsl(246, 50%, 55%);
 }
 
 .headTxt {
@@ -56,31 +56,36 @@ body {
      width: 150px;
      height: 150px;
      background-color: antiquewhite;
-     border: 3px solid black;
+     border: 1px solid black;
      float: left;
      position: relative;
      left: 20px;
      top: -20px;
  }
- .section1r {
-     font-family: sans-serif;
-    font-size: 8;
-    width: 250px;
-    height: 200px;
-    float: right;
-    position: relative;
-    margin: 100px;
-    background-color: lightslategray;
-    padding: 50px 100px 0 30px;
-
+ .box1 {
+    
+    height: 100px;
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    position: fixed;
+    float:left;
+    top: 500px;
+    background-color:lightgray;
  }
- .section1l {
-    font-family: sans-serif;
-    font-size:8;
-    width: 250px;
-    height:100px;
-    float: left;
-    position: relative;
-    background-color: lightslategrey;
 
- }
+.box1a { 
+
+height: 200px;
+width: 350px;
+padding: 10px;
+margin: 100px;
+border: 1px solid black;
+position: fixed;
+float:left;
+top: 410px;
+left: 500px;
+background-color:lightgray;
+}
+}
